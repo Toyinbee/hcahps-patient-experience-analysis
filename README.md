@@ -85,7 +85,7 @@ Python (pandas), SQL (SQLite), CMS Provider Data API, Google Colab, Looker Studi
 
 ## Links
 
-- Live dashboard: *(add Looker Studio link once published)*
+- Live dashboard: https://datastudio.google.com/reporting/8e94a9f3-c65c-4652-ac50-0f2d51dbf42e
 - Case study write-up: *(add Notion link)*
 - Notebook: `hcahps_patient_experience_analysis.ipynb` (in this repo)
 
