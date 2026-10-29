@@ -9,7 +9,7 @@ I approached this as a data analyst for a hospital network. The Chief Experience
 
 ## Data source
 
-**CMS Patient Survey (HCAHPS) - Hospital**, pulled live via the [CMS Provider Data API](https://data.cms.gov/provider-data/dataset/dgck-syfz) — a national, standardized survey every Medicare-participating hospital must run. Covers 4,790 hospitals and 9 patient-experience measures, for surveys completed October 2024–September 2025.
+**CMS Patient Survey (HCAHPS) - Hospital**, pulled live via the [CMS Provider Data API](https://data.cms.gov/provider-data/dataset/dgck-syfz) a national, standardized survey every Medicare-participating hospital must run. Covers 4,790 hospitals and 9 patient-experience measures, for surveys completed October 2024–September 2025.
 
 No file download needed the data was pulled directly from CMS's live API.
 
@@ -58,9 +58,9 @@ ORDER BY avg_overall_rating DESC;
 | Quietness | 3.27 | 0.62 |
 | Cleanliness | 3.44 | 0.58 |
 
-- **Communication about medicines scores lowest nationally** (2.71/5) — but it's not the measure that matters most.
+- **Communication about medicines scores lowest nationally** (2.71/5) but it's not the measure that matters most.
 - **Nurse communication is most closely linked to a hospital's overall rating** (0.79 correlation) the clearest answer to "what should we fix first?"
-- **Ratings vary widely by state:** South Dakota, Nebraska, and Wisconsin average highest (3.8–4.0 stars); New York, New Jersey, and Puerto Rico average lowest (2.2–2.8 stars) — states with 10+ hospitals reporting only.
+- **Ratings vary widely by state:** South Dakota, Nebraska, and Wisconsin average highest (3.8–4.0 stars); New York, New Jersey, and Puerto Rico average lowest (2.2–2.8 stars) states with 10+ hospitals reporting only.
 - **Smaller hospitals tend to rate higher:** 100–300 surveys → 3.75 stars average, dropping to ~3.1–3.2 for hospitals with 300+ surveys.
 - **"Overall rating" and "would recommend" almost always agree**  only 0.2% of hospitals show a real (2+ star) gap between the two.
 
